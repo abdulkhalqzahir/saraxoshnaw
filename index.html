@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سیستەمی وێنە و نرخ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>سیستەمی وێنە و نرخ</h1>
+            <p>وێنە لە کۆمپیوتەر باربکە و نرخی بنووسە</p>
+        </header>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <label for="photo-upload">وێنە هەڵبژێرە:</label>
+                <input type="file" id="photo-upload" accept="image/*">
+            </div>
+            <div class="input-group">
+                <label for="photo-price">نرخی وێنە:</label>
+                <input type="text" id="photo-price" placeholder="نرخی وێنە...">
+            </div>
+            <button id="add-btn">
+                <span>+</span> وێنەی نوێ زیاد بکە
+            </button>
+        </div>
+        
+        <div class="gallery" id="photo-gallery">
+            <!-- وێنەکان لێرە دەردەکەون -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
